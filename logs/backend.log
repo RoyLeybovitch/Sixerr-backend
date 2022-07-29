@@ -1242,3 +1242,24 @@
 28.7.2022, 9:49:02 - DEBUG - auth.service - login with username: ea (sid: JVOuePzoMjXVVKNUGqkQA3cjitZg7Qzh)
 28.7.2022, 9:49:03 - DEBUG - auth.service - login with username: ea (sid: JVOuePzoMjXVVKNUGqkQA3cjitZg7Qzh)
 28.7.2022, 9:51:29 - DEBUG - auth.service - login with username: ea (sid: JVOuePzoMjXVVKNUGqkQA3cjitZg7Qzh)
+28.7.2022, 11:43:42 - INFO - Server is running on port: 3030 
+28.7.2022, 12:37:12 - DEBUG - auth.service - signup with username: a, fullname: a (sid: JynFfu6Hs1AixyVG5tedPxpSAfgoCEzc)
+28.7.2022, 12:37:12 - DEBUG - auth.route - new account created: {"username":"a","password":"$2b$10$Tx7mtA7HVR4x0KVdngOUjeLe7RmRxcLxvf6ad59gDEJluSxwpssVO","fullname":"a","_id":"62e258c8c48bc8463cb9d69b"} (sid: JynFfu6Hs1AixyVG5tedPxpSAfgoCEzc)
+28.7.2022, 12:37:12 - DEBUG - auth.service - login with username: a (sid: JynFfu6Hs1AixyVG5tedPxpSAfgoCEzc)
+29.7.2022, 0:48:23 - INFO - Server is running on port: 3030 
+29.7.2022, 1:07:12 - INFO - Server is running on port: 3030 
+29.7.2022, 1:09:01 - INFO - Server is running on port: 3030 
+29.7.2022, 1:13:31 - INFO - Server is running on port: 3030 
+29.7.2022, 1:15:16 - INFO - Server is running on port: 3030 
+29.7.2022, 1:38:12 - INFO - Server is running on port: 3030 
+29.7.2022, 1:45:09 - INFO - Server is running on port: 3030 
+29.7.2022, 1:45:40 - INFO - Server is running on port: 3030 
+29.7.2022, 1:46:05 - INFO - Server is running on port: 3030 
+29.7.2022, 1:46:17 - INFO - Server is running on port: 3030 
+29.7.2022, 1:46:45 - INFO - Server is running on port: 3030 
+29.7.2022, 1:50:46 - INFO - Server is running on port: 3030 
+29.7.2022, 1:55:42 - INFO - Server is running on port: 3030 
+29.7.2022, 1:58:43 - INFO - Server is running on port: 3030 
+29.7.2022, 1:59:40 - INFO - Server is running on port: 3030 
+29.7.2022, 2:02:00 - INFO - Server is running on port: 3030 
+29.7.2022, 2:03:02 - INFO - Server is running on port: 3030 
