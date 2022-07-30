@@ -1,76 +1,90 @@
-const dbService = require('../../services/db.service')
-const utilService = require('../../services/utilService.js')
-const ObjectId = require('mongodb').ObjectId
+const dbService = require("../../services/db.service");
+const utilService = require("../../services/utilService.js");
+const ObjectId = require("mongodb").ObjectId;
 
 async function query(filterBy) {
-    const criteria = _buildCriteria(filterBy)
-    const collection = await dbService.getCollection('gig')
-    var gigs = await collection.find(criteria).toArray()
-    return gigs
+  const criteria = _buildCriteria(filterBy);
+  const collection = await dbService.getCollection("gig");
+  var gigs = await collection.find(criteria).toArray();
+  return gigs;
 }
 
 async function getById(gigId) {
-    const collection = await dbService.getCollection('gig')
-    const gig = collection.findOne({ _id: ObjectId(gigId) })
-    return gig
+  const collection = await dbService.getCollection("gig");
+  const gig = collection.findOne({ _id: ObjectId(gigId) });
+  return gig;
 }
 
 async function remove(gigId) {
-    const collection = await dbService.getCollection('gig')
-    await collection.deleteOne({ _id: ObjectId(gigId) })
-    return gigId
+  const collection = await dbService.getCollection("gig");
+  await collection.deleteOne({ _id: ObjectId(gigId) });
+  return gigId;
 }
 
 async function add(gig) {
-    const collection = await dbService.getCollection('gig')
-    const { ops } = await collection.insertOne(gig)
-    return ops[0]
+  const collection = await dbService.getCollection("gig");
+  const { ops } = await collection.insertOne(gig);
+  return ops[0];
 }
 async function update(gig) {
-    var id = ObjectId(gig._id)
-    delete gig._id
-    const collection = await dbService.getCollection('gig')
-    await collection.updateOne({ _id: id }, { $set: { ...gig } })
-    gig._id = id
-    return gig
+  var id = ObjectId(gig._id);
+  delete gig._id;
+  const collection = await dbService.getCollection("gig");
+  await collection.updateOne({ _id: id }, { $set: { ...gig } });
+  gig._id = id;
+  return gig;
 }
 
 async function addReview(review, gigId) {
-    try {
-        const collection = await dbService.getCollection('gig')
-        review.id = utilService.makeId()
-        review.createdAt = Date.now()
-        await collection.updateOne({ _id: ObjectId(gigId) }, { $push: { reviews: review } })
-        return review
-    } catch (err) {
-        console.log(err)
-        throw err
-    }
+  try {
+    const collection = await dbService.getCollection("gig");
+    review.id = utilService.makeId();
+    review.createdAt = Date.now();
+    await collection.updateOne(
+      { _id: ObjectId(gigId) },
+      { $push: { reviews: review } }
+    );
+    return review;
+  } catch (err) {
+    console.log(err);
+    throw err;
+  }
 }
 
 async function addMsg(gigId, msg) {
-    const gig = await getById(gigId)
-    gig.msgs = gig.msgs || []
-    gig.msgs.push(msg)
-    update(gig)
+  const gig = await getById(gigId);
+  gig.msgs = gig.msgs || [];
+  gig.msgs.push(msg);
+  update(gig);
 }
 
 function _buildCriteria(filterBy) {
-    const criteria = {}
-    console.log('filterBy', filterBy)
-    if (filterBy.name) {
-        const txtCriteria = { $regex: filterBy.name, $options: 'i' }
-        criteria.name = txtCriteria
-    }
-    return criteria
+  const { category, populary, min } = filterBy;
+  const criteria = {};
+  console.log("filterBy", filterBy);
+  if (category) {
+    const txtCriteria = { $regex: category, $options: "i" };
+    criteria.category = txtCriteria;
+  }
+  if (min) {
+    criteria.price = { $gt: min };
+  }
+  //   if (populary) {
+  //     criteria.owner.rate = { $gte: populary };
+  //   }
+  //   if (filterBy.minPrice) {
+  //     criteria.price = {$gte : filterBy.minPrice}
+  // }
+
+  return criteria;
 }
 
 module.exports = {
-    remove,
-    query,
-    getById,
-    add,
-    update,
-    addReview,
-    addMsg,
-}
+  remove,
+  query,
+  getById,
+  add,
+  update,
+  addReview,
+  addMsg,
+};
