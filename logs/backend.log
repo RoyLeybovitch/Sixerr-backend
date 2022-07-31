@@ -1433,3 +1433,9 @@
 >>>>>>> 5a375c4f992401b3a8a12781e88df8e728ba6948
 >>>>>>> 40f7c2a39da5a170e74d16aded773c6dfd11d04b
 31.7.2022, 11:01:16 - INFO - Server is running on port: 3030 
+31.7.2022, 11:02:56 - INFO - Server is running on port: 3030 
+31.7.2022, 11:05:45 - DEBUG - auth.service - login with username: hello (sid: 0RkZqT6PG7Juveq785u6A499yjT4PkUa)
+31.7.2022, 11:31:33 - DEBUG - auth.service - login with username: hello (sid: 0RkZqT6PG7Juveq785u6A499yjT4PkUa)
+31.7.2022, 11:33:14 - DEBUG - auth.service - login with username: hello (sid: 0RkZqT6PG7Juveq785u6A499yjT4PkUa)
+31.7.2022, 11:35:17 - DEBUG - auth.service - login with username: hello (sid: 0RkZqT6PG7Juveq785u6A499yjT4PkUa)
+31.7.2022, 18:11:03 - DEBUG - auth.service - login with username: hello (sid: 0RkZqT6PG7Juveq785u6A499yjT4PkUa)
