@@ -4,8 +4,10 @@ const ObjectId = require("mongodb").ObjectId;
 
 async function query(filterBy) {
   const criteria = _buildCriteria(filterBy);
+  const sortCriteria = _buildSortCriteria(filterBy);
   const collection = await dbService.getCollection("gig");
-  var gigs = await collection.find(criteria).toArray();
+  // var gigs = await collection.find(criteria).toArray();
+  var gigs = await collection.find(criteria).sort(sortCriteria).toArray();
   return gigs;
 }
 
@@ -59,8 +61,7 @@ async function addMsg(gigId, msg) {
 }
 
 function _buildCriteria(filterBy) {
-  const { category, populary, min, max, time, sort } = filterBy;
-  console.log(category, populary, min);
+  const { category, populary, min, max, time } = filterBy;
   const criteria = {};
   console.log("filterBy", filterBy);
   if (category) {
@@ -79,11 +80,19 @@ function _buildCriteria(filterBy) {
   if (populary) {
     criteria["owner.rate"] = { $gte: parseInt(populary) };
   }
-  // if (sort) {
-  //   const sortBy = sort === "price" ? "price" : "name";
-  //   criteria.sortBy = { $sort: 1 };
-  //   criteria.sortBy = { $sort: -1 };
-  // }
+
+  return criteria;
+}
+
+function _buildSortCriteria({ sort = "" }) {
+  let criteria = {};
+  if (sort === "price") {
+    criteria.price = 1;
+  } else if(sort === "title"){
+    criteria.title = 1;
+  }else if(sort === "name"){
+    criteria.owner.fullname = 1;
+  }
 
   return criteria;
 }

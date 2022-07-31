@@ -1327,7 +1327,6 @@
 29.7.2022, 1:59:40 - INFO - Server is running on port: 3030 
 29.7.2022, 2:02:00 - INFO - Server is running on port: 3030 
 29.7.2022, 2:03:02 - INFO - Server is running on port: 3030 
-<<<<<<< HEAD
 29.7.2022, 14:33:11 - INFO - Server is running on port: 3030 
 29.7.2022, 14:42:17 - DEBUG - auth.service - login with username: a (sid: nO8pT8PGx40jbPctptBVruMS_BIMSq_T)
 29.7.2022, 14:42:21 - DEBUG - auth.service - login with username: a (sid: nO8pT8PGx40jbPctptBVruMS_BIMSq_T)
@@ -1419,23 +1418,49 @@
 31.7.2022, 7:57:10 - DEBUG - auth.service - login with username: a (sid: LVXFRVJqHqD_gKY2N9DdJia_nbzx6lcl)
 31.7.2022, 7:58:54 - DEBUG - auth.service - login with username: a (sid: LVXFRVJqHqD_gKY2N9DdJia_nbzx6lcl)
 31.7.2022, 8:10:42 - INFO - Server is running on port: 3030 
-=======
-29.7.2022, 14:21:49 - INFO - Server is running on port: 3030 
-<<<<<<< HEAD
-29.7.2022, 14:23:54 - DEBUG - auth.service - login with username: hello (sid: TBa1QnZfILVSuvzpZsF_m00vhBwUYbAg)
-29.7.2022, 14:33:13 - DEBUG - auth.service - login with username: hello (sid: TBa1QnZfILVSuvzpZsF_m00vhBwUYbAg)
-29.7.2022, 17:13:53 - DEBUG - auth.service - login with username: hello (sid: TBa1QnZfILVSuvzpZsF_m00vhBwUYbAg)
-30.7.2022, 20:50:45 - DEBUG - auth.service - login with username: hello (sid: TBa1QnZfILVSuvzpZsF_m00vhBwUYbAg)
-30.7.2022, 20:52:44 - DEBUG - auth.service - login with username: hello (sid: TBa1QnZfILVSuvzpZsF_m00vhBwUYbAg)
-31.7.2022, 9:44:34 - DEBUG - auth.service - login with username: hello (sid: TBa1QnZfILVSuvzpZsF_m00vhBwUYbAg)
-31.7.2022, 10:57:17 - DEBUG - auth.service - login with username: hello (sid: 2_t0GR1iZRSXYJCd0OBXGBZF5VPOybg2)
-=======
->>>>>>> 5a375c4f992401b3a8a12781e88df8e728ba6948
+31.7.2022, 10:59:38 - INFO - Server is running on port: 3030 
+31.7.2022, 11:06:58 - INFO - Server is running on port: 3030 
+31.7.2022, 11:39:54 - DEBUG - auth.service - login with username: a (sid: v1arUEJaZL6bxbq1P4DyZGUcvWICuRfI)
+31.7.2022, 11:40:51 - DEBUG - auth.service - login with username: a (sid: v1arUEJaZL6bxbq1P4DyZGUcvWICuRfI)
+31.7.2022, 11:58:35 - INFO - Server is running on port: 3030 
+31.7.2022, 11:58:41 - DEBUG - auth.service - login with username: a (sid: MIP9sLxB1ngF7fMw52v4nNmqeSEmaGdQ)
+31.7.2022, 12:10:14 - INFO - Server is running on port: 3030 
+31.7.2022, 12:10:21 - INFO - Server is running on port: 3030 
+31.7.2022, 12:12:24 - DEBUG - auth.service - login with username: a (sid: VmvbZNjI9w804w7jelvmXB5XvZazFOqW)
+31.7.2022, 12:16:36 - INFO - Server is running on port: 3030 
+31.7.2022, 12:18:31 - INFO - Server is running on port: 3030 
+31.7.2022, 12:21:55 - INFO - Server is running on port: 3030 
+31.7.2022, 12:23:42 - INFO - Server is running on port: 3030 
+31.7.2022, 12:27:03 - INFO - Server is running on port: 3030 
+31.7.2022, 12:31:14 - INFO - Server is running on port: 3030 
+31.7.2022, 12:42:06 - INFO - Server is running on port: 3030 
+31.7.2022, 12:42:31 - INFO - Server is running on port: 3030 
+31.7.2022, 12:49:14 - INFO - Server is running on port: 3030 
+31.7.2022, 15:10:10 - INFO - Server is running on port: 3030 
+31.7.2022, 15:12:56 - INFO - Server is running on port: 3030 
+31.7.2022, 15:14:47 - INFO - Server is running on port: 3030 
+31.7.2022, 15:18:35 - INFO - Server is running on port: 3030 
+31.7.2022, 15:19:47 - INFO - Server is running on port: 3030 
+31.7.2022, 15:24:25 - INFO - Server is running on port: 3030 
+31.7.2022, 15:24:49 - INFO - Server is running on port: 3030 
+31.7.2022, 15:25:06 - INFO - Server is running on port: 3030 
+31.7.2022, 15:36:49 - INFO - Server is running on port: 3030 
+31.7.2022, 15:37:25 - INFO - Server is running on port: 3030 
+31.7.2022, 15:39:45 - INFO - Server is running on port: 3030 
+31.7.2022, 15:40:22 - INFO - Server is running on port: 3030 
+31.7.2022, 15:40:56 - INFO - Server is running on port: 3030 
+31.7.2022, 15:41:06 - INFO - Server is running on port: 3030 
+31.7.2022, 15:47:27 - INFO - Server is running on port: 3030 
 >>>>>>> 40f7c2a39da5a170e74d16aded773c6dfd11d04b
 31.7.2022, 11:01:16 - INFO - Server is running on port: 3030 
+<<<<<<< HEAD
 31.7.2022, 11:02:56 - INFO - Server is running on port: 3030 
 31.7.2022, 11:05:45 - DEBUG - auth.service - login with username: hello (sid: 0RkZqT6PG7Juveq785u6A499yjT4PkUa)
 31.7.2022, 11:31:33 - DEBUG - auth.service - login with username: hello (sid: 0RkZqT6PG7Juveq785u6A499yjT4PkUa)
 31.7.2022, 11:33:14 - DEBUG - auth.service - login with username: hello (sid: 0RkZqT6PG7Juveq785u6A499yjT4PkUa)
 31.7.2022, 11:35:17 - DEBUG - auth.service - login with username: hello (sid: 0RkZqT6PG7Juveq785u6A499yjT4PkUa)
 31.7.2022, 18:11:03 - DEBUG - auth.service - login with username: hello (sid: 0RkZqT6PG7Juveq785u6A499yjT4PkUa)
+=======
+>>>>>>> cea478ab2fc30b35dc6836728c373449ccd5e3ea
+>>>>>>> 684e56fe6767dc61c3b9ac76b52adf6f8de16f02
+31.7.2022, 18:53:01 - INFO - Server is running on port: 3030 
