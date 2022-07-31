@@ -3,8 +3,8 @@ const ObjectId = require('mongodb').ObjectId
 
 async function query(filterBy = {}) {
   // const criteria = _buildCriteria(filterBy)
-  const collection = await dbService.getCollection('review')
-  // return await collection.find(criteria).toArray()
+  const collection = await dbService.getCollection('testim')
+  return await collection.find(criteria).toArray()
   var reviews = await collection
     .aggregate([
       { $match: filterBy },
