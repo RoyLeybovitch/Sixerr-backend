@@ -1263,3 +1263,94 @@
 29.7.2022, 1:59:40 - INFO - Server is running on port: 3030 
 29.7.2022, 2:02:00 - INFO - Server is running on port: 3030 
 29.7.2022, 2:03:02 - INFO - Server is running on port: 3030 
+29.7.2022, 14:33:11 - INFO - Server is running on port: 3030 
+29.7.2022, 14:42:17 - DEBUG - auth.service - login with username: a (sid: nO8pT8PGx40jbPctptBVruMS_BIMSq_T)
+29.7.2022, 14:42:21 - DEBUG - auth.service - login with username: a (sid: nO8pT8PGx40jbPctptBVruMS_BIMSq_T)
+29.7.2022, 14:42:37 - DEBUG - auth.service - login with username: hello (sid: nO8pT8PGx40jbPctptBVruMS_BIMSq_T)
+29.7.2022, 14:42:37 - ERROR - Failed to Login Invalid username or password (sid: nO8pT8PGx40jbPctptBVruMS_BIMSq_T)
+29.7.2022, 14:47:14 - DEBUG - auth.service - signup with username: bb, fullname: bb (sid: nO8pT8PGx40jbPctptBVruMS_BIMSq_T)
+29.7.2022, 14:47:14 - DEBUG - auth.route - new account created: {"username":"bb","password":"$2b$10$zobyrIlG8UsleEfrx0ceDekSqR.O12lnD2Kyco9ZKTp3gUxG6UU7G","fullname":"bb","_id":"62e3c8c26ed40015c8dbed8d"} (sid: nO8pT8PGx40jbPctptBVruMS_BIMSq_T)
+29.7.2022, 14:47:14 - DEBUG - auth.service - login with username: bb (sid: nO8pT8PGx40jbPctptBVruMS_BIMSq_T)
+29.7.2022, 15:15:34 - DEBUG - auth.service - login with username: hello (sid: nO8pT8PGx40jbPctptBVruMS_BIMSq_T)
+29.7.2022, 15:15:34 - ERROR - Failed to Login Invalid username or password (sid: nO8pT8PGx40jbPctptBVruMS_BIMSq_T)
+29.7.2022, 15:21:57 - DEBUG - auth.service - login with username: bb (sid: nO8pT8PGx40jbPctptBVruMS_BIMSq_T)
+29.7.2022, 18:53:17 - INFO - Server is running on port: 3030 
+29.7.2022, 18:55:27 - INFO - Server is running on port: 3030 
+29.7.2022, 19:00:47 - INFO - Server is running on port: 3030 
+29.7.2022, 19:04:24 - INFO - Server is running on port: 3030 
+30.7.2022, 21:33:09 - INFO - Server is running on port: 3030 
+30.7.2022, 21:48:15 - INFO - Server is running on port: 3030 
+30.7.2022, 21:52:49 - INFO - Server is running on port: 3030 
+30.7.2022, 22:11:30 - INFO - Server is running on port: 3030 
+30.7.2022, 22:24:29 - INFO - Server is running on port: 3030 
+30.7.2022, 22:25:26 - INFO - Server is running on port: 3030 
+30.7.2022, 22:51:01 - INFO - Server is running on port: 3030 
+30.7.2022, 22:51:39 - INFO - Server is running on port: 3030 
+30.7.2022, 22:54:16 - INFO - Server is running on port: 3030 
+30.7.2022, 23:08:49 - INFO - Server is running on port: 3030 
+30.7.2022, 23:27:30 - INFO - Server is running on port: 3030 
+30.7.2022, 23:27:59 - INFO - Server is running on port: 3030 
+30.7.2022, 23:39:39 - INFO - Server is running on port: 3030 
+30.7.2022, 23:41:45 - INFO - Server is running on port: 3030 
+30.7.2022, 23:56:46 - INFO - Server is running on port: 3030 
+31.7.2022, 0:17:54 - INFO - Server is running on port: 3030 
+31.7.2022, 1:39:35 - DEBUG - auth.service - signup with username: a, fullname: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 1:39:35 - DEBUG - auth.route - new account created: {"username":"a","password":"$2b$10$o0kU6n/moibSzzKJohY9e.gPmW6ioeWa7V40MueqYKEkfR66g0OfS","fullname":"a","_id":"62e5b3275226353af4116060"} (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 1:39:35 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 2:46:39 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 2:46:42 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 2:47:30 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 4:17:58 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 4:18:16 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 4:19:29 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 4:32:38 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 4:37:16 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 4:43:46 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 5:06:38 - DEBUG - auth.service - signup with username: , fullname:  (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 5:06:38 - ERROR - Failed to signup fullname, username and password are required! (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 5:06:52 - DEBUG - auth.service - login with username:  (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 5:06:52 - ERROR - Failed to Login Invalid username or password (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 5:07:47 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 5:07:50 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 5:07:51 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 5:07:51 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 5:07:51 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 5:07:52 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 5:07:52 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 5:07:52 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 5:07:52 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 5:07:53 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 5:07:53 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 5:07:54 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 5:07:54 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 5:07:54 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 5:08:41 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 5:08:43 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 5:08:44 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 5:08:44 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 5:08:44 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 5:12:39 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 5:12:41 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 5:12:42 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 5:12:42 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 5:12:43 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 5:12:43 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 5:21:14 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 5:21:16 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 5:21:31 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 5:24:04 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 5:24:29 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 5:24:38 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 6:03:13 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 6:27:22 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 6:28:51 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 6:29:00 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 6:51:32 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 7:00:42 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 7:15:26 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 7:23:37 - DEBUG - auth.service - login with username: a (sid: ykHocLtatAkiXh1aKTa_SQSl1Xag_ahz)
+31.7.2022, 7:39:47 - INFO - Server is running on port: 3030 
+31.7.2022, 7:49:23 - INFO - Server is running on port: 3030 
+31.7.2022, 7:57:10 - DEBUG - auth.service - login with username: a (sid: LVXFRVJqHqD_gKY2N9DdJia_nbzx6lcl)
+31.7.2022, 7:58:54 - DEBUG - auth.service - login with username: a (sid: LVXFRVJqHqD_gKY2N9DdJia_nbzx6lcl)
+31.7.2022, 8:10:42 - INFO - Server is running on port: 3030 
