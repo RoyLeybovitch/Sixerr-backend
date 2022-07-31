@@ -60,6 +60,9 @@ module.exports = {
 function _buildCriteria(filterBy) {
     const criteria = {}
     if (filterBy.userId) criteria['buyer._id'] = filterBy.userId
+    if (filterBy.sellerId) criteria['seller._id'] = filterBy.userId
+    console.log('criteria', criteria)
+    
     return criteria
 }
 
