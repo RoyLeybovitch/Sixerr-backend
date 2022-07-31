@@ -59,7 +59,8 @@ async function addMsg(gigId, msg) {
 }
 
 function _buildCriteria(filterBy) {
-  const { category, populary, min } = filterBy;
+  const { category, populary, min, max, time, sort } = filterBy;
+  console.log(category, populary, min);
   const criteria = {};
   console.log("filterBy", filterBy);
   if (category) {
@@ -67,13 +68,21 @@ function _buildCriteria(filterBy) {
     criteria.category = txtCriteria;
   }
   if (min) {
-    criteria.price = { $gt: min };
+    criteria.price = { $gte: parseInt(min) };
   }
-  //   if (populary) {
-  //     criteria.owner.rate = { $gte: populary };
-  //   }
-  //   if (filterBy.minPrice) {
-  //     criteria.price = {$gte : filterBy.minPrice}
+  if (max) {
+    criteria.price = { $lte: parseInt(max) };
+  }
+  if (time) {
+    criteria.daysToMake = { $lte: parseInt(time) };
+  }
+  if (populary) {
+    criteria["owner.rate"] = { $gte: parseInt(populary) };
+  }
+  // if (sort) {
+  //   const sortBy = sort === "price" ? "price" : "name";
+  //   criteria.sortBy = { $sort: 1 };
+  //   criteria.sortBy = { $sort: -1 };
   // }
 
   return criteria;
