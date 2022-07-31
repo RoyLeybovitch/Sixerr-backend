@@ -1,69 +1,77 @@
-const dbService = require('../../services/db.service')
-const ObjectId = require('mongodb').ObjectId
+const dbService = require("../../services/db.service");
+const ObjectId = require("mongodb").ObjectId;
 
 async function query(filterBy = {}) {
-    const criteria = _buildCriteria(filterBy)
-    const collection = await dbService.getCollection('order')
-    return await collection.find(criteria).toArray()
-    // var orders = await collection
-    //     .aggregate([
-    //         { $match: filterBy },
-    //         {
-    //             $addFields: {
-    //                 userObjId: { $toObjectId: '$userId' },
-    //                 gigObjId: { $toObjectId: '$gigId' },
-    //             },
-    //         },
-    //         {
-    //             $lookup: {
-    //                 from: 'user',
-    //                 foreignField: '_id',
-    //                 localField: 'userObjId',
-    //                 as: 'user',
-    //             },
-    //         },
-    //         { $unwind: '$user' },
-    //         {
-    //             $lookup: {
-    //                 from: 'gig',
-    //                 foreignField: '_id',
-    //                 localField: 'gigObjId',
-    //                 as: 'gig',
-    //             },
-    //         },
-    //         {
-    //             $unwind: '$gig',
-    //         },
-    //         {
-    //             $project: {
-    //                 content: 1,
-    //                 user: { _id: 1, username: 1 },
-    //                 gig: { _id: 1, name: 1, price: 1 },
-    //             },
-    //         },
-    //     ])
-    //     .toArray()
-    return orders
+  const criteria = _buildCriteria(filterBy);
+  const collection = await dbService.getCollection("order");
+  return await collection.find(criteria).toArray();
+  // var orders = await collection
+  //     .aggregate([
+  //         { $match: filterBy },
+  //         {
+  //             $addFields: {
+  //                 userObjId: { $toObjectId: '$userId' },
+  //                 gigObjId: { $toObjectId: '$gigId' },
+  //             },
+  //         },
+  //         {
+  //             $lookup: {
+  //                 from: 'user',
+  //                 foreignField: '_id',
+  //                 localField: 'userObjId',
+  //                 as: 'user',
+  //             },
+  //         },
+  //         { $unwind: '$user' },
+  //         {
+  //             $lookup: {
+  //                 from: 'gig',
+  //                 foreignField: '_id',
+  //                 localField: 'gigObjId',
+  //                 as: 'gig',
+  //             },
+  //         },
+  //         {
+  //             $unwind: '$gig',
+  //         },
+  //         {
+  //             $project: {
+  //                 content: 1,
+  //                 user: { _id: 1, username: 1 },
+  //                 gig: { _id: 1, name: 1, price: 1 },
+  //             },
+  //         },
+  //     ])
+  //     .toArray()
+  return orders;
 }
 
 async function addorder(order) {
-    const collection = await dbService.getCollection('order')
-    const addedorder = await collection.insertOne(order)
-    return addedorder.ops[0]
+  const collection = await dbService.getCollection("order");
+  const addedorder = await collection.insertOne(order);
+  return addedorder.ops[0];
 }
 
 module.exports = {
-    query,
-    addorder,
-}
+  query,
+  addorder,
+};
 
 function _buildCriteria(filterBy) {
-    const criteria = {}
-    if (filterBy.userId) criteria['buyer._id'] = filterBy.userId
-    if (filterBy.sellerId) criteria['seller._id'] = filterBy.userId
-    console.log('criteria', criteria)
-    
-    return criteria
+  const criteria = {};
+  const { userId, isBuyer } = filterBy;
+  console.log("isBuyer", isBuyer);
+
+  if (userId) {
+    if (isBuyer==='true') {
+      criteria["buyer._id"] = filterBy.userId;
+    } else {
+      criteria["seller._id"] = filterBy.userId;
+    }
+  }
+  console.log("criteria", criteria);
+
+  return criteria;
 }
 
 // populate(data)
