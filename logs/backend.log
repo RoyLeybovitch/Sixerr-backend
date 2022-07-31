@@ -1459,3 +1459,37 @@
 31.7.2022, 11:01:16 - INFO - Server is running on port: 3030 
 >>>>>>> cea478ab2fc30b35dc6836728c373449ccd5e3ea
 31/07/2022, 11:21:21 - INFO - Server is running on port: 3030 
+31/07/2022, 11:23:38 - ERROR - Cannot Connect to DB | {"name":"MongoServerSelectionError","reason":{"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}} (sid: GSTK-8WEprZRbKuoGd06RraBR2ufdNJ6)
+31/07/2022, 11:23:38 - ERROR - Failed to get Mongo collection | {"name":"MongoServerSelectionError","reason":{"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}} (sid: GSTK-8WEprZRbKuoGd06RraBR2ufdNJ6)
+31/07/2022, 11:23:38 - ERROR - Cannot Connect to DB | {"name":"MongoServerSelectionError","reason":{"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}} (sid: UCsZmROvVEISqCsY79rzzIme-_MH3Jr_)
+31/07/2022, 11:23:38 - ERROR - Failed to get Mongo collection | {"name":"MongoServerSelectionError","reason":{"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}} (sid: UCsZmROvVEISqCsY79rzzIme-_MH3Jr_)
+31/07/2022, 11:23:55 - ERROR - Cannot Connect to DB | {"name":"MongoServerSelectionError","reason":{"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}} (sid: k9d14zva4YHGdQmzLRqxzOnJJdGgF2_z)
+31/07/2022, 11:23:55 - ERROR - Failed to get Mongo collection | {"name":"MongoServerSelectionError","reason":{"type":"Single","setName":null,"maxSetVersion":null,"maxElectionId":null,"servers":{},"stale":false,"compatible":true,"compatibilityError":null,"logicalSessionTimeoutMinutes":null,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"commonWireVersion":null}} (sid: k9d14zva4YHGdQmzLRqxzOnJJdGgF2_z)
+31/07/2022, 11:24:25 - INFO - Server is running on port: 3030 
+31/07/2022, 11:25:05 - INFO - Server is running on port: 3030 
+31/07/2022, 11:25:33 - ERROR - Failed to get reviews | {} (sid: I0GMcfPXv1Svn1EVGgrd3uwY2VM7Xk0p)
+31/07/2022, 11:25:39 - ERROR - Failed to get reviews | {} (sid: I0GMcfPXv1Svn1EVGgrd3uwY2VM7Xk0p)
+31/07/2022, 11:25:39 - ERROR - Failed to get reviews | {} (sid: I0GMcfPXv1Svn1EVGgrd3uwY2VM7Xk0p)
+31/07/2022, 11:25:41 - ERROR - Failed to get reviews | {} (sid: I0GMcfPXv1Svn1EVGgrd3uwY2VM7Xk0p)
+31/07/2022, 11:25:41 - ERROR - Failed to get reviews | {} (sid: I0GMcfPXv1Svn1EVGgrd3uwY2VM7Xk0p)
+31/07/2022, 11:41:47 - INFO - Server is running on port: 3030 
+31/07/2022, 11:44:44 - ERROR - Failed to get reviews | {} (sid: otk5Tvu84j5dKSDUX31NvXeFWnpIs1aG)
+31/07/2022, 11:44:57 - ERROR - Failed to get reviews | {} (sid: otk5Tvu84j5dKSDUX31NvXeFWnpIs1aG)
+31/07/2022, 11:46:13 - INFO - Server is running on port: 3030 
+31/07/2022, 11:46:38 - ERROR - Failed to get reviews | {} (sid: JWaA7Hlweb8Yd5PALZnNeZ7ItQMjbOBD)
+31/07/2022, 11:51:37 - DEBUG - auth.service - signup with username: levi, fullname: levi (sid: JWaA7Hlweb8Yd5PALZnNeZ7ItQMjbOBD)
+31/07/2022, 11:51:37 - DEBUG - auth.route - new account created: {"username":"levi","password":"$2b$10$hymFa12ubMUparOtAtUmvu1rNq9q4o0C/wS17ZOLsjF/yY5ed13aW","fullname":"levi","_id":"62e6429971dfba39f849f668"} (sid: JWaA7Hlweb8Yd5PALZnNeZ7ItQMjbOBD)
+31/07/2022, 11:51:37 - DEBUG - auth.service - login with username: levi (sid: JWaA7Hlweb8Yd5PALZnNeZ7ItQMjbOBD)
+31/07/2022, 11:51:39 - DEBUG - auth.service - signup with username: levi, fullname: levi (sid: JWaA7Hlweb8Yd5PALZnNeZ7ItQMjbOBD)
+31/07/2022, 11:51:39 - DEBUG - auth.route - new account created: {"username":"levi","password":"$2b$10$dg3XXHEVYp0WZ1rE9yB/dOTREmaXTofQ89NBh7tFd6jSRwVC/RugG","fullname":"levi","_id":"62e6429b71dfba39f849f669"} (sid: JWaA7Hlweb8Yd5PALZnNeZ7ItQMjbOBD)
+31/07/2022, 11:51:39 - DEBUG - auth.service - login with username: levi (sid: JWaA7Hlweb8Yd5PALZnNeZ7ItQMjbOBD)
+31/07/2022, 11:52:29 - DEBUG - auth.service - login with username: levi (sid: JWaA7Hlweb8Yd5PALZnNeZ7ItQMjbOBD)
+31/07/2022, 11:53:36 - DEBUG - auth.service - login with username: levi (sid: JWaA7Hlweb8Yd5PALZnNeZ7ItQMjbOBD)
+31/07/2022, 11:54:55 - DEBUG - auth.service - login with username: levi (sid: JWaA7Hlweb8Yd5PALZnNeZ7ItQMjbOBD)
+31/07/2022, 11:55:10 - DEBUG - auth.service - login with username: levi (sid: JWaA7Hlweb8Yd5PALZnNeZ7ItQMjbOBD)
+31/07/2022, 11:56:08 - DEBUG - auth.service - login with username: levi (sid: JWaA7Hlweb8Yd5PALZnNeZ7ItQMjbOBD)
+31/07/2022, 11:57:20 - DEBUG - auth.service - login with username: levi (sid: JWaA7Hlweb8Yd5PALZnNeZ7ItQMjbOBD)
+31/07/2022, 11:58:53 - DEBUG - auth.service - login with username: levi (sid: JWaA7Hlweb8Yd5PALZnNeZ7ItQMjbOBD)
+31/07/2022, 11:59:58 - DEBUG - auth.service - login with username: levi (sid: JWaA7Hlweb8Yd5PALZnNeZ7ItQMjbOBD)
+31/07/2022, 12:11:22 - INFO - Server is running on port: 3030 
+31/07/2022, 12:13:05 - INFO - Server is running on port: 3030 
