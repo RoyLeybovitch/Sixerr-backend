@@ -1,3 +1,39 @@
+function _buildCriteria(filterBy) {
+  const { category, populary, min, max, time } = filterBy;
+  const criteria = {};
+  console.log("filterBy", filterBy);
+  if (category) {
+    const txtCriteria = { $regex: category, $options: "i" };
+    criteria.category = txtCriteria;
+  }
+  if (min) {
+    criteria.price = { $gte: parseInt(min) };
+  }
+  if (max) {
+    criteria.price = { $lte: parseInt(max) };
+  }
+  if (time) {
+    criteria.daysToMake = { $lte: parseInt(time) };
+  }
+  if (populary) {
+    criteria["owner.rate"] = { $gte: parseInt(populary) };
+  }
+
+  return criteria;
+}
+
+function _buildSortCriteria({ sort = "" }) {
+  let criteria = {};
+  if (sort === "price") {
+    criteria.price = 1;
+  } else if(sort === "title"){
+    criteria.title = 1;
+  }else if(sort === "name"){
+    criteria.owner.fullname = 1;
+  }
+
+  return criteria;
+}
 const dbService = require("../../services/db.service");
 const utilService = require("../../services/utilService.js");
 const ObjectId = require("mongodb").ObjectId;
@@ -60,42 +96,6 @@ async function addMsg(gigId, msg) {
   update(gig);
 }
 
-function _buildCriteria(filterBy) {
-  const { category, populary, min, max, time } = filterBy;
-  const criteria = {};
-  console.log("filterBy", filterBy);
-  if (category) {
-    const txtCriteria = { $regex: category, $options: "i" };
-    criteria.category = txtCriteria;
-  }
-  if (min) {
-    criteria.price = { $gte: parseInt(min) };
-  }
-  if (max) {
-    criteria.price = { $lte: parseInt(max) };
-  }
-  if (time) {
-    criteria.daysToMake = { $lte: parseInt(time) };
-  }
-  if (populary) {
-    criteria["owner.rate"] = { $gte: parseInt(populary) };
-  }
-
-  return criteria;
-}
-
-function _buildSortCriteria({ sort = "" }) {
-  let criteria = {};
-  if (sort === "price") {
-    criteria.price = 1;
-  } else if(sort === "title"){
-    criteria.title = 1;
-  }else if(sort === "name"){
-    criteria.owner.fullname = 1;
-  }
-
-  return criteria;
-}
 
 module.exports = {
   remove,
