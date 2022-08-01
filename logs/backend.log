@@ -1497,3 +1497,13 @@
 31/07/2022, 12:31:12 - INFO - Server is running on port: 3030 
 31/07/2022, 13:02:25 - DEBUG - auth.service - login with username: levi (sid: NF6eYiRYPK5Qsp_rLUsjn3OzrHgso3kt)
 31/07/2022, 13:10:42 - DEBUG - auth.service - login with username: levi (sid: NF6eYiRYPK5Qsp_rLUsjn3OzrHgso3kt)
+31/07/2022, 22:11:59 - INFO - Server is running on port: 3030 
+31/07/2022, 22:29:09 - INFO - Server is running on port: 3030 
+31/07/2022, 22:34:29 - INFO - Server is running on port: 3030 
+31/07/2022, 22:35:35 - INFO - Server is running on port: 3030 
+31/07/2022, 22:39:06 - INFO - Server is running on port: 3030 
+31/07/2022, 22:39:35 - ERROR - Failed to get reviews | {} (sid: jfSIUpZXI0KaKiRvwlMdvld_zbspDA7u)
+31/07/2022, 22:39:59 - ERROR - Failed to get reviews | {} (sid: jfSIUpZXI0KaKiRvwlMdvld_zbspDA7u)
+31/07/2022, 22:40:22 - ERROR - Failed to get reviews | {} (sid: jfSIUpZXI0KaKiRvwlMdvld_zbspDA7u)
+31/07/2022, 22:41:40 - ERROR - Failed to get reviews | {} (sid: jfSIUpZXI0KaKiRvwlMdvld_zbspDA7u)
+01/08/2022, 08:20:11 - INFO - Server is running on port: 3030 
