@@ -23,7 +23,18 @@ async function addorder(req, res) {
     }
 }
 
+async function updateorder(req, res) {
+    try {
+        const gig = req.body
+        const updatedorder = await orderService.update(gig)
+        res.json(updatedorder)
+    } catch (err) {
+        res.status(500).send(err)
+    }
+}
+
 module.exports = {
     getorders,
     addorder,
+    updateorder
 }
