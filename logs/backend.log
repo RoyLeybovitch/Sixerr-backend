@@ -1561,3 +1561,19 @@
 >>>>>>> 684e56fe6767dc61c3b9ac76b52adf6f8de16f02
 31.7.2022, 18:53:01 - INFO - Server is running on port: 3030 
 >>>>>>> e72155eca695ab1a52c59e331c6582b99a83de80
+01/08/2022, 13:48:27 - DEBUG - auth.service - login with username: levi (sid: pZpFjO6SaOtZ3YyfwgOU7Bv5BxO915F7)
+01/08/2022, 13:48:39 - DEBUG - auth.service - login with username: levi (sid: pZpFjO6SaOtZ3YyfwgOU7Bv5BxO915F7)
+01/08/2022, 14:03:54 - DEBUG - auth.service - login with username: levi (sid: pZpFjO6SaOtZ3YyfwgOU7Bv5BxO915F7)
+01/08/2022, 14:06:41 - DEBUG - auth.service - login with username: levi (sid: pZpFjO6SaOtZ3YyfwgOU7Bv5BxO915F7)
+01/08/2022, 14:11:17 - DEBUG - auth.service - login with username: levi (sid: pZpFjO6SaOtZ3YyfwgOU7Bv5BxO915F7)
+01/08/2022, 14:14:55 - DEBUG - auth.service - login with username: levi (sid: pZpFjO6SaOtZ3YyfwgOU7Bv5BxO915F7)
+01/08/2022, 14:15:03 - DEBUG - auth.service - login with username: levi (sid: pZpFjO6SaOtZ3YyfwgOU7Bv5BxO915F7)
+01/08/2022, 14:15:49 - DEBUG - auth.service - login with username: levi (sid: pZpFjO6SaOtZ3YyfwgOU7Bv5BxO915F7)
+01/08/2022, 14:17:07 - DEBUG - auth.service - login with username: levi (sid: pZpFjO6SaOtZ3YyfwgOU7Bv5BxO915F7)
+01/08/2022, 14:19:50 - INFO - Server is running on port: 3030 
+01/08/2022, 14:19:58 - DEBUG - auth.service - login with username: levi (sid: BRyHowVU-jl12FkVkTlRB5RuKLUffDW0)
+01/08/2022, 14:20:00 - DEBUG - auth.service - login with username: levi (sid: hVOUIpBueo6rXQjQEmqLv1_7X5ED20xo)
+01/08/2022, 14:21:30 - DEBUG - auth.service - login with username: levi (sid: hVOUIpBueo6rXQjQEmqLv1_7X5ED20xo)
+01/08/2022, 14:22:51 - DEBUG - auth.service - login with username: levi (sid: hVOUIpBueo6rXQjQEmqLv1_7X5ED20xo)
+01/08/2022, 14:23:23 - DEBUG - auth.service - login with username: levi (sid: hVOUIpBueo6rXQjQEmqLv1_7X5ED20xo)
+01/08/2022, 14:24:17 - DEBUG - auth.service - login with username: levi (sid: hVOUIpBueo6rXQjQEmqLv1_7X5ED20xo)
