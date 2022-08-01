@@ -52,9 +52,19 @@ async function addorder(order) {
   return addedorder.ops[0];
 }
 
+async function update(order) {
+  var id = ObjectId(order._id);
+  delete order._id;
+  const collection = await dbService.getCollection("order");
+  await collection.updateOne({ _id: id }, { $set: { ...order } });
+  order._id = id;
+  return order;
+}
+
 module.exports = {
   query,
   addorder,
+  update,
 };
 
 function _buildCriteria(filterBy) {

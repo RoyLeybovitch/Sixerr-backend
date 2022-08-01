@@ -1454,3 +1454,41 @@
 >>>>>>> 40f7c2a39da5a170e74d16aded773c6dfd11d04b
 31.7.2022, 11:01:16 - INFO - Server is running on port: 3030 
 >>>>>>> cea478ab2fc30b35dc6836728c373449ccd5e3ea
+31.7.2022, 16:42:21 - INFO - Server is running on port: 3030 
+31.7.2022, 19:24:51 - INFO - Server is running on port: 3030 
+31.7.2022, 19:43:40 - DEBUG - auth.service - login with username: a (sid: ihr20XLOiu1SfLlaAMG1orpskfvspPe2)
+31.7.2022, 19:52:33 - DEBUG - auth.service - login with username: a (sid: ihr20XLOiu1SfLlaAMG1orpskfvspPe2)
+31.7.2022, 20:00:39 - DEBUG - auth.service - login with username: a (sid: ihr20XLOiu1SfLlaAMG1orpskfvspPe2)
+31.7.2022, 20:14:16 - DEBUG - auth.service - login with username: a (sid: ihr20XLOiu1SfLlaAMG1orpskfvspPe2)
+1.8.2022, 1:07:07 - DEBUG - auth.service - login with username: a (sid: ihr20XLOiu1SfLlaAMG1orpskfvspPe2)
+1.8.2022, 3:17:34 - DEBUG - auth.service - login with username: a (sid: ihr20XLOiu1SfLlaAMG1orpskfvspPe2)
+1.8.2022, 3:18:11 - DEBUG - auth.service - login with username: a (sid: ihr20XLOiu1SfLlaAMG1orpskfvspPe2)
+1.8.2022, 10:30:28 - INFO - Server is running on port: 3030 
+1.8.2022, 11:01:07 - DEBUG - auth.service - login with username: a (sid: yYiOayD-G4MDvzqLz7jD0-wBGE6QnGDj)
+1.8.2022, 12:14:49 - DEBUG - auth.service - login with username: a (sid: yYiOayD-G4MDvzqLz7jD0-wBGE6QnGDj)
+1.8.2022, 12:51:05 - DEBUG - auth.service - login with username: a (sid: yYiOayD-G4MDvzqLz7jD0-wBGE6QnGDj)
+1.8.2022, 13:30:38 - DEBUG - auth.service - login with username: a (sid: yYiOayD-G4MDvzqLz7jD0-wBGE6QnGDj)
+1.8.2022, 13:30:52 - DEBUG - auth.service - login with username: a (sid: yYiOayD-G4MDvzqLz7jD0-wBGE6QnGDj)
+1.8.2022, 14:58:54 - DEBUG - auth.service - login with username: a (sid: yYiOayD-G4MDvzqLz7jD0-wBGE6QnGDj)
+1.8.2022, 15:06:41 - DEBUG - auth.service - login with username: a (sid: yYiOayD-G4MDvzqLz7jD0-wBGE6QnGDj)
+1.8.2022, 15:10:22 - DEBUG - auth.service - login with username: a (sid: yYiOayD-G4MDvzqLz7jD0-wBGE6QnGDj)
+1.8.2022, 15:21:33 - DEBUG - auth.service - login with username: a (sid: yYiOayD-G4MDvzqLz7jD0-wBGE6QnGDj)
+1.8.2022, 15:26:38 - DEBUG - auth.service - login with username: a (sid: yYiOayD-G4MDvzqLz7jD0-wBGE6QnGDj)
+1.8.2022, 15:31:11 - DEBUG - auth.service - login with username: a (sid: yYiOayD-G4MDvzqLz7jD0-wBGE6QnGDj)
+1.8.2022, 15:31:24 - DEBUG - auth.service - login with username: a (sid: yYiOayD-G4MDvzqLz7jD0-wBGE6QnGDj)
+1.8.2022, 15:31:44 - DEBUG - auth.service - login with username: a (sid: yYiOayD-G4MDvzqLz7jD0-wBGE6QnGDj)
+1.8.2022, 15:39:08 - INFO - Server is running on port: 3030 
+1.8.2022, 15:43:08 - INFO - Server is running on port: 3030 
+1.8.2022, 16:07:30 - INFO - Server is running on port: 3030 
+1.8.2022, 16:08:06 - INFO - Server is running on port: 3030 
+1.8.2022, 16:11:11 - DEBUG - auth.service - login with username: a (sid: 9UrEX6q8Pi5ntL-3i-7GnBVYOpg3X7MG)
+1.8.2022, 16:15:02 - DEBUG - auth.service - login with username: a (sid: 9UrEX6q8Pi5ntL-3i-7GnBVYOpg3X7MG)
+1.8.2022, 17:46:40 - INFO - Server is running on port: 3030 
+1.8.2022, 17:48:58 - DEBUG - auth.service - login with username: a (sid: Mt63FXBaozPhJG7tLWqMf6BAT4HTFH3k)
+1.8.2022, 19:04:29 - DEBUG - auth.service - login with username: a (sid: Mt63FXBaozPhJG7tLWqMf6BAT4HTFH3k)
+1.8.2022, 19:08:41 - DEBUG - auth.service - signup with username: b, fullname: b (sid: Mt63FXBaozPhJG7tLWqMf6BAT4HTFH3k)
+1.8.2022, 19:08:41 - DEBUG - auth.route - new account created: {"username":"b","password":"$2b$10$l82PpjM8obakDuuomfDvSuV1WONeK8IXIBNcL9FkB5gLaJbAMWq4a","fullname":"b","_id":"62e7fa896151b62688a92c41"} (sid: Mt63FXBaozPhJG7tLWqMf6BAT4HTFH3k)
+1.8.2022, 19:08:41 - DEBUG - auth.service - login with username: b (sid: Mt63FXBaozPhJG7tLWqMf6BAT4HTFH3k)
+1.8.2022, 19:08:44 - DEBUG - auth.service - signup with username: b, fullname: b (sid: Mt63FXBaozPhJG7tLWqMf6BAT4HTFH3k)
+1.8.2022, 19:08:44 - DEBUG - auth.route - new account created: {"username":"b","password":"$2b$10$NAcMMDkB34Ygl8j5NjktSOhdhUSpP5LQBxe82xtwAALN1EqMJc4e2","fullname":"b","_id":"62e7fa8c6151b62688a92c42"} (sid: Mt63FXBaozPhJG7tLWqMf6BAT4HTFH3k)
+1.8.2022, 19:08:44 - DEBUG - auth.service - login with username: b (sid: Mt63FXBaozPhJG7tLWqMf6BAT4HTFH3k)
